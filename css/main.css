@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+body{
+	
+	background-color: black;
+}
+
+header{
+	padding: 20px 10px;
+}
+
+#logo{
+	padding: 10px;
+	color: white;
+	text-align: center;
+	width: 150px;
+	height: 30px;
+	border: .1px;
+	border-style: solid;
+	border-color: white;
+	display: inline-block; 
+}
+
+#top-nav{
+	padding: 10px;
+	float: right;
+	display: inline-block;
+}
+
+#top-nav a{
+	display: inline-block;
+	text-decoration:none;
+	color: white;
+	padding: 5px 15px;
+	font-weight: bold;
+	font
+}
+
+#mephoto img{
+	opacity: .8;
+	padding: 50px 50px;
+	display: block;
+	margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 300px;
+}
+
+#mewhoami h1{
+	font-weight: lighter;
+	font-size: 100px;
+	font-family: 'Poiret One';
+	text-align: center;
+	color: white;
+}
+
+#mewhoami h4{
+	font-weight: lighter;
+	font-size: 20px;
+	font-family: 'Poiret One';
+	text-align: center;
+	color: white;
+}
