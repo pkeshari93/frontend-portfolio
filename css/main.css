@@ -39,7 +39,7 @@ header{
 	opacity: .8;
 	padding: 50px 50px;
 	display: block;
-	margin-top: 100px;
+	margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
     height: 400px;
@@ -60,4 +60,21 @@ header{
 	font-family: 'Poiret One';
 	text-align: center;
 	color: white;
+}
+
+.footer{
+  	height: 50px;
+  	margin-top: -50px;
+}
+
+.footer p{
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	width: 20%;
+	border: 1px;
+	border-style: solid;
+	padding: 5px;
+	color: white;
+	text-align: center;
 }
