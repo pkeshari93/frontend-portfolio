@@ -1,118 +1,198 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+/*core styling*/
 body{
-	
-	background-color: black;
-	background-attachment: fixed;
-	font-size: 62.5%;
-	margin:0;
+	 font-family: "Poiret One", Sacramento, "Cutive Mono";
+	 font-size: 1.5em;
+	 line-height: 1.5em;
+	 text-align: center;
+	 background: #090608;
+	 color: #fff;	
 }
 
-header{
-	padding: 20px 10px;
+
+img{
+	display: block;
+	width: 100%;
+	height: auto;
+	/*border-radius: 1em;*/
 }
 
-#logo{
-	font-size: 1.5em;
-	padding: 10px;
-	color: white;
-	text-align: center;
-	width: 150px;
-	height: 10px;
-	border: .1px;
-	border-style: solid;
-	border-color: white;
-	display: inline-block; 
-}
-
-#top-nav{
-	padding: 10px;
-	float: right;
-	display: inline-block;
-	padding-bottom: 5px;
-}
-
-#top-nav a{
-	display: inline-block;
-	text-decoration:none;
-	color: white;
-	padding: 5px 15px;
-	font-weight: bold;
-	font-size: 1.5em;
-}
-
-#top-nav a:hover { 
-	background-color: #C7C9CB;
-	opacity: .8;
-}
-
-#intro p{
+h1, h2, h3{
 	font-family: "Poiret One";
-	color: white;
-	display: block;
-	margin: 20px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
+	margin: 0;
+	padding: 1em 0;
+}
+
+h2{
 	font-size: 2em;
-	margin-bottom: 50px;
 }
 
-#mephoto img{
-	opacity: .6;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 40%;
-    width: 40%;
-    background-blend-mode: lighten;
+h3{
+	font-size:1.5em;
 }
 
-#mewhoami h1{
-	display: block;
-	font-size: 6em;
-	font-family: 'Poiret One';
-	color: white;
-	left: 10%;
-	right: 10%;
-	text-align: center;
-	top: 200px;
-	position: fixed;
-	
+h4{
+	font-size: 1em;
+	text-decoration: underline;
 }
 
-#mewhoami h4{
-	display: block;
-	font-weight: lighter;
-	font-size: 2em;
-	font-family: 'Poiret One';
-	color: white;
-	position: fixed;
-	left:350px;
-	margin-bottom: 10px;
-	top:150px;
+p{
+	margin: 0;
+	padding: 1em 0;
+	font-family: "Cutive Mono";
+	font-size: .6em;
 }
 
-.footer{
-	height: 50px;
-	margin-top: 50px;
-}
-
-.footer p{
+.btn{
+	font-size: 1em;
+	/*margin: .5em .5em;*/
 	display: inline-block;
-	padding: 20px;
-	width: 20%;
-	color: white;
-	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	padding: .2em .2em;
+	/*transition-delay: .1;*/
+
+}
+
+.btn:hover{
+	background: #242324;
+	border-radius: 1em;
+	padding: .2em;
+	font-size: 1.05em;
+	color: orange;
+
+}
+
+#header{
+	min-height: 500px;
+}
+
+#header .logo{
+	font-family: Sacramento;
 	font-size: 1.5em;
+	display: block;
+	padding: 80px 0;
 }
 
-#social-links{
-	padding: 10px;
-	float: right;
-	display: inline-block;
+#header h1{
+	padding: 100px 10px;
+
+	/*padding-bottom: 0;*/
 }
 
-.footer a{
+.content-wrap{
+	padding: 0 .2em;
+}
+
+#about{
+	background: #fff;
+	color: #333;
+	padding-bottom: 1em;
+}
+
+#about img{
+	border-radius: 1em;
+}
+
+#edu{
+	padding-bottom: 1em;
+}
+
+#edu .tech-logo{
+	display: block;
+	margin: 0 1em;
+	border: #fff .2em solid;
+	padding: .2em;
+}
+
+#edu .edu-pics li{
+	background: #fff;
+	color: #333;
+	padding: .2em .2em;
+	border-radius: 1em;
+	margin: .2em;
+}
+
+#edu .edu-pics img{
+	border-radius: 1em;
+	filter: brightness(130%) contrast(110%) saturate(120%);
+}
+
+ol{
+	list-style: decimal;
+	list-style-position: inside;
+	font-family: "Cutive Mono";
+	border: .05em #fff solid;
+	font-size: .6em;
+
+
+}
+
+.user-story ol li{
+	text-decoration-line: line-through;
+	text-decoration-color: #333;
+}
+
+#intern{
+	background: #fff;
+	color: #333;
+	padding-bottom: 1em;
+}
+
+#intern ol{
+	border-color: #333;
+}
+
+.card-content li{
+	list-style-type: disc;
+	list-style-position: inside;
+	font-family: "Cutive Mono";
+	border: .05em #fff solid;
+	font-size: .6em;
+}
+
+#intern .card img{
+	padding: 1em 0;
+}
+
+#projects{
+	padding-bottom: 1em;
+}
+
+#projects .card{
+	background: #fff;
+	color: #333;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+}
+
+#projects .btn{
+	font-size: 1em;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 0.2em .2em;
+	background: #333;
+	border-radius: 2em;
+	border: .2em #333 solid;
+
+}
+#projects .btn:hover{
+		color: orange;
+		font-size: 1.05em;
+}
+
+#footer img{
+	width:40px;
+	height:40px;
+	border:0;
+}
+#footer{
+	padding-bottom: 2em;
+}
+#footer a{
 	display: inline-block;
 	text-decoration:none;
 	color: white;
@@ -121,15 +201,28 @@ header{
 	font-size: 1.5em;
 }
 
-.footer img{
-	width:30px;
-	height:30px;
-	border:0;
+#footer a:hover { 
+	background-color: #333;
+	/*opacity: .8;*/
+	border-radius: 1em;
+	/*background-blend-mode: screen;*/
+
 }
 
-.footer a:hover { 
-	background-color: #C7C9CB;
-	opacity: .8;
-	background-blend-mode: screen;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
