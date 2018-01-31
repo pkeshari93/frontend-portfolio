@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+/*core styling*/
+body{
+	 font-family: "Poiret One", Sacramento, "Cutive Mono";
+	 font-size: 1.5em;
+	 line-height: 1.5em;
+	 text-align: center;
+	 background: #090608;
+	 color: #fff;	
+}
+
+
+img{
+	display: block;
+	width: 100%;
+	height: auto;
+	/*border-radius: 1em;*/
+}
+
+h1, h2, h3{
+	font-family: "Poiret One";
+	margin: 0;
+	padding: 1em 0;
+}
+
+h2{
+	font-size: 2em;
+}
+
+h3{
+	font-size:1.5em;
+}
+
+h4{
+	font-size: 1em;
+	text-decoration: underline;
+}
+
+p{
+	margin: 0;
+	padding: 1em 0;
+	font-family: "Cutive Mono";
+	font-size: .6em;
+}
+
+.btn{
+	font-size: 1em;
+	/*margin: .5em .5em;*/
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	padding: .2em .2em;
+	/*transition-delay: .1;*/
+
+}
+
+.btn:hover{
+	background: #242324;
+	border-radius: 1em;
+	padding: .2em;
+	font-size: 1.05em;
+	color: orange;
+
+}
+
+#header{
+	min-height: 500px;
+}
+
+#header .logo{
+	font-family: Sacramento;
+	font-size: 1.5em;
+	display: block;
+	padding: 80px 0;
+}
+
+#header h1{
+	padding: 100px 10px;
+
+	/*padding-bottom: 0;*/
+}
+
+.content-wrap{
+	padding: 0 .2em;
+}
+
+#about{
+	background: #fff;
+	color: #333;
+	padding-bottom: 1em;
+}
+
+#about img{
+	border-radius: 1em;
+}
+
+#edu{
+	padding-bottom: 1em;
+}
+
+#edu .tech-logo{
+	display: block;
+	margin: 0 1em;
+	border: #fff .2em solid;
+	padding: .2em;
+}
+
+#edu .edu-pics li{
+	background: #fff;
+	color: #333;
+	padding: .2em .2em;
+	border-radius: 1em;
+	margin: .2em;
+}
+
+#edu .edu-pics img{
+	border-radius: 1em;
+	filter: brightness(130%) contrast(110%) saturate(120%);
+}
+
+ol{
+	list-style: decimal;
+	list-style-position: inside;
+	font-family: "Cutive Mono";
+	border: .05em #fff solid;
+	font-size: .6em;
+
+
+}
+
+.user-story ol li{
+	text-decoration-line: line-through;
+	text-decoration-color: #333;
+}
+
+#intern{
+	background: #fff;
+	color: #333;
+	padding-bottom: 1em;
+}
+
+#intern ol{
+	border-color: #333;
+}
+
+.card-content li{
+	list-style-type: disc;
+	list-style-position: inside;
+	font-family: "Cutive Mono";
+	border: .05em #fff solid;
+	font-size: .6em;
+}
+
+#intern .card img{
+	padding: 1em 0;
+}
+
+#projects{
+	padding-bottom: 1em;
+}
+
+#projects .card{
+	background: #fff;
+	color: #333;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+}
+
+#projects .btn{
+	font-size: 1em;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 0.2em .2em;
+	background: #333;
+	border-radius: 2em;
+	border: .2em #333 solid;
+
+}
+#projects .btn:hover{
+		color: orange;
+		font-size: 1.05em;
+}
+
+#footer img{
+	width:40px;
+	height:40px;
+	border:0;
+}
+#footer{
+	padding-bottom: 2em;
+}
+#footer a{
+	display: inline-block;
+	text-decoration:none;
+	color: white;
+	padding: 10px 15px;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+#footer a:hover { 
+	background-color: #333;
+	/*opacity: .8;*/
+	border-radius: 1em;
+	/*background-blend-mode: screen;*/
+
+}
+
+/*media query*/
+@media(min-width: 700px){
+	
+	.grid{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
