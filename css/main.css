@@ -40,7 +40,7 @@ h4{
 
 p{
 	margin: 0;
-	padding: 1em 0;
+	padding: 1em .5em;
 	font-family: "Cutive Mono";
 	font-size: .6em;
 }
@@ -60,7 +60,7 @@ p{
 	background: #242324;
 	border-radius: 1em;
 	padding: .2em;
-	font-size: 1.05em;
+	/*font-size: 1.05em;*/
 	color: orange;
 
 }
@@ -68,7 +68,10 @@ p{
 #header{
 	min-height: 500px;
 }
-
+#header .top-nav{
+	padding: 0 1em;
+	/*margin: 0 .5em;*/
+}
 #header .logo{
 	font-family: Sacramento;
 	font-size: 1.5em;
@@ -94,6 +97,10 @@ p{
 
 #about img{
 	border-radius: 1em;
+}
+
+.about-img, .benares{
+	padding: 2em;
 }
 
 #edu{
@@ -274,13 +281,23 @@ ol{
 	#header .top-nav{
 		display: inline-block;
 		font-size: .8em;
-		grid-column: 3/-1;
+		grid-column: 4/-1;
 		padding-top: 1em;
 		padding-right: 1em;
+		/*width: 70%;*/
+		/*float: right;*/
+		/*width: 70%;*/
+
+		float: right;
+	}
+
+	#header .nav-float{
+		display: inline-block;
+		grid-column: 4/-1;
 	}
 	
 	#header a{
-		float: right;
+		/*float: right;*/
 		padding: 0 .5em;
 	}
 
@@ -296,7 +313,7 @@ ol{
 	}
 
 	#about .about-img{
-		grid-column: 3/5;
+		grid-column: 2/6;
 	}
 
 	p{
@@ -347,7 +364,7 @@ ol{
 		max-height: 250px;
 		/*width: 250px;*/
 		/*height: 250px;*/
-	}*/
+	/*}*/
 
 	/*.acl{
 		display: inline-block;
