@@ -164,9 +164,19 @@ ol{
 	padding-left: 1em;
 }
 
-#intern .card img{
+.intern-img{
 	padding: 1em 0;
+	display: inline-block;
+	width: 300px;
+	height: 150px;
+	
 }
+
+#intern	.jack{
+	padding-top: 1.5em;
+}
+
+
 
 #projects{
 	padding-bottom: 1em;
@@ -186,6 +196,15 @@ ol{
 		/*width: 250px;*/
 		/*height: 250px;*/
 	}
+
+#intern img{
+		display: inline-block;
+		max-width: 400px;
+		max-height: 250px;
+		/*width: 250px;*/
+		/*height: 250px;*/
+	}
+
 .acl{
 		display: inline-block;
 		width: 250px;
@@ -283,6 +302,7 @@ ol{
 	p{
 		grid-column: 1/-1;
 		padding: 2em 3em;
+		/*font-size: 1.2em;*/
 	}
 
 	#about .benares{
@@ -311,6 +331,8 @@ ol{
 	
 	.user-story, .lesson-learned{
 		grid-column: span 3;
+		/*font-size: 1.2em;*/
+		/*font-weight: 700; */
 	}
 	
 	.card-img{
