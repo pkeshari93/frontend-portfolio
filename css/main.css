@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One');
 @import url('https://fonts.googleapis.com/css?family=Sacramento');
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+@import url('https://fonts.googleapis.com/css?family=Cutive');
 /*core styling*/
 body{
 	 font-family: "Poiret One", Sacramento, "Cutive Mono";
@@ -42,7 +43,16 @@ p{
 	margin: 0;
 	padding: 1em .5em;
 	font-family: "Cutive Mono";
-	font-size: .6em;
+	font-size: .8em;
+	line-height: 2em;
+}
+
+li{
+	margin: 0;
+	padding: 1em .5em;
+	font-family: "Cutive Mono";
+	font-size: 1em;
+	line-height: 2em;
 }
 
 .btn{
@@ -127,20 +137,26 @@ p{
 	filter: brightness(130%) contrast(110%) saturate(120%);
 }
 
-ol{
-	list-style: decimal;
-	list-style-position: inside;
+.user-story, .lesson-learned{
 	font-family: "Cutive Mono";
-	border: .05em #fff solid;
+	border: .2em #fff solid;
 	font-size: .6em;
 	min-height: 300px;
+	margin: 0 .2em;
 
 }
 
+
 .user-story ol li{
+
 	text-decoration-line: line-through;
 	text-decoration-color: #333;
 	/*display: inline-table;*/
+}
+
+ol{
+	list-style: decimal;
+	list-style-position: inside;
 }
 
 #intern{
@@ -149,11 +165,13 @@ ol{
 	padding-bottom: 1em;
 }
 
-#intern ol{
+#intern .user-story,
+#intern .lesson-learned{
 	border-color: #333;
 }
 
-.card-content li{
+#intern .card-content li{
+	text-align: left;
 	list-style-type: disc;
 	list-style-position: inside;
 	font-family: "Cutive Mono";
@@ -162,6 +180,7 @@ ol{
 }
 
 #projects li{
+	text-align: left;
 	list-style-type: disc;
 	list-style-position: inside;
 	text-align: left;
@@ -346,11 +365,16 @@ ol{
 		grid-template-rows: 260px auto auto 60px;
 	}
 	
+
 	.user-story, .lesson-learned{
 		grid-column: span 3;
+		
+		
 		/*font-size: 1.2em;*/
 		/*font-weight: 700; */
 	}
+
+
 	
 	.card-img{
 		width: 100%;
